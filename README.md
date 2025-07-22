@@ -121,21 +121,7 @@ Use an RViz2 config that displays:
 
 ## Docker Container (Optional)
 
-A pre-built Docker container is available if you prefer an isolated environment. You can find it at:
-
-```
-<INSERT-DOCKER-CONTAINER-URL-HERE>
-```
-
-To run:
-
-```bash
-docker pull your-docker-repo/mobile-ros2:latest
-docker run --rm -it \
-  --network host \
-  -v $(pwd):/workspace \
-  mobile-ros2:latest /bin/bash
-```
+SOON
 
 ---
 
